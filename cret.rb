@@ -5,7 +5,6 @@ class Cret < Formula
   desc "Version manager for Deno"
   homepage "https://github.com/lion-man44/cret"
   version "1.0.0"
-  bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/lion-man44/cret/releases/download/v1.0.0/cret-x86_64-apple-darwin.zip"
